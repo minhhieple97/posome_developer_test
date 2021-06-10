@@ -1,0 +1,68 @@
+[
+  {
+    "input": {
+      "capacity": 0,
+      "package_types": []
+    },
+    "output": {"estimated_revenue": 0, "estimated_weight": 0, "picked_items": {}}
+  },
+  {
+    "input": {
+      "capacity": 1000,
+      "package_types": [
+        {"id": "tank",  "w": 600, "v": 30.0},
+        {"id": "car",   "w": 300, "v": 14.0},
+        {"id": "blade", "w": 400, "v": 16.0},
+        {"id": "gun",   "w": 200, "v": 9.0}
+      ]
+    },
+    "output": {
+      "estimated_revenue": 48.0,
+      "estimated_weight": 1000,
+      "picked_items": {"tank": 1, "gun": 2}
+    }
+  },
+  {
+    "input": {
+      "capacity": 700,
+      "package_types": [
+        {"id": "tank",  "w": 600, "v": 30.0},
+        {"id": "car",   "w": 300, "v": 14.0},
+        {"id": "blade", "w": 400, "v": 16.0},
+        {"id": "gun",   "w": 200, "v": 9.0}
+      ]
+    },
+    "output": {
+      "estimated_revenue": 32.0,
+      "estimated_weight": 700,
+      "picked_items": {"car": 1, "gun": 2}
+    }
+  },
+  {
+    "input": {
+      "capacity": 900,
+      "package_types": [
+        {"id": "tank2",  "w": 600, "v": 30.0},
+        {"id": "car2",   "w": 400, "v": 30.3},
+        {"id": "blade2", "w": 300, "v": 22.0},
+        {"id": "gun2",   "w": 200, "v": 9.0}
+      ]
+    },
+    "output": {
+      "estimated_revenue": 66.0,
+      "estimated_weight": 900,
+      "picked_items": {"blade2": 3}
+    }
+  },
+  {
+    "input": {
+      "capacity": 30000000,
+      "package_types": [{"id":"barbie","w":10400,"v":40},{"id":"legos","w":4600,"v":15},{"id":"skip_it","w":2300,"v":15},{"id":"star_wars_action_figure","w":7900,"v":60},{"id":"tickle_me_elmo","w":7600,"v":45},{"id":"teenage_mutant_ninja_turtles","w":2600,"v":60},{"id":"neodymium_magnet_toy","w":5600,"v":65},{"id":"play_doh","w":900,"v":60},{"id":"g_i__joe","w":4200,"v":30},{"id":"buck_rogers_rocket_pistol","w":4500,"v":45},{"id":"little_tikes_log_cabin","w":1200,"v":45},{"id":"red_ryder_bb_gun","w":2900,"v":20},{"id":"mattel_classic_football","w":9600,"v":65},{"id":"paint_by_numbers_kit","w":2800,"v":55},{"id":"simon","w":4200,"v":30},{"id":"water_balloon","w":1000,"v":25},{"id":"plarail_toy_train","w":9700,"v":45},{"id":"little_tikes_cozy_coupe_car","w":8800,"v":65},{"id":"cabbage_patch_kids","w":4800,"v":20},{"id":"american_girl_doll","w":9200,"v":15},{"id":"transformers","w":9700,"v":70},{"id":"care_bear","w":3200,"v":70},{"id":"silly_putty","w":5200,"v":60},{"id":"see__n_say","w":700,"v":40},{"id":"matchbox_car","w":8800,"v":65},{"id":"stuffed_mickey_mouse","w":4300,"v":30},{"id":"gumby","w":9400,"v":40},{"id":"radio_controlled_car","w":4400,"v":45},{"id":"radio_flyer_wagon","w":900,"v":35},{"id":"bubble_solution","w":4100,"v":25},{"id":"fisher_price_little_people","w":8600,"v":30},{"id":"playmobil","w":4700,"v":65},{"id":"pez_dispenser","w":2400,"v":20},{"id":"pop_up_book","w":2100,"v":35},{"id":"sock_monkey","w":3700,"v":35},{"id":"army_men","w":4000,"v":65},{"id":"tonka_truck","w":5000,"v":35},{"id":"chatty_cathy","w":2600,"v":70},{"id":"barbie_s_dream_house","w":6300,"v":45},{"id":"paddington_bear","w":1400,"v":25},{"id":"slap_bracelet","w":4200,"v":65},{"id":"ken","w":3700,"v":40},{"id":"snoopy_sno_cone_machine","w":1400,"v":40},{"id":"two_handed_pogo_stick","w":800,"v":40},{"id":"johnny_seven_o_m_a_","w":1700,"v":60},{"id":"star_trek_electronic_phasers","w":9000,"v":40},{"id":"little_golden_books","w":9800,"v":25},{"id":"beach_ball","w":7600,"v":25},{"id":"glo_worm","w":9900,"v":55},{"id":"slinky","w":9200,"v":25},{"id":"koosh_ball","w":1500,"v":60},{"id":"glow_stick","w":6900,"v":30},{"id":"troll_doll","w":9500,"v":20},{"id":"yo_yo","w":8200,"v":20},{"id":"hot_wheels","w":3800,"v":60},{"id":"masters_of_the_universe_action_figure","w":9100,"v":45},{"id":"pound_puppy","w":5800,"v":40},{"id":"view_master","w":5100,"v":35},{"id":"joy_buzzer","w":7200,"v":40},{"id":"chemistry_set","w":10100,"v":15},{"id":"buzz_lightyear","w":7000,"v":35},{"id":"slip__n_slide","w":3100,"v":35},{"id":"rubik_s_cube","w":9600,"v":40},{"id":"fake_vomit","w":6200,"v":60},{"id":"chatter_telephone","w":4600,"v":40},{"id":"nerf_ball","w":6400,"v":30},{"id":"teddy_ruxpin","w":6500,"v":60},{"id":"corn_popper","w":2100,"v":40},{"id":"easy_bake_oven","w":1500,"v":35},{"id":"microscope_set","w":2600,"v":45},{"id":"super_soaker","w":2000,"v":30},{"id":"mindflex","w":4100,"v":65},{"id":"polly_pocket","w":2900,"v":40},{"id":"wrestling_buddy","w":2600,"v":70},{"id":"superball","w":2900,"v":25},{"id":"wiffle_ball","w":2400,"v":45},{"id":"bratz","w":3800,"v":30},{"id":"beanie_baby","w":8200,"v":40},{"id":"rock_a_stack","w":4800,"v":60},{"id":"shrinky_dinks","w":2300,"v":15},{"id":"hula_hoop","w":7000,"v":35},{"id":"rock_em_sock_em_robots","w":5700,"v":45},{"id":"stretch_armstrong","w":6100,"v":65},{"id":"frisbee","w":6200,"v":50},{"id":"zhu_zhu","w":4900,"v":35},{"id":"magna_doodle","w":1700,"v":25},{"id":"magic_8_ball","w":2000,"v":30},{"id":"etch_a_sketch","w":8100,"v":60},{"id":"colorforms","w":5300,"v":15},{"id":"creepy_crawlers","w":9500,"v":50},{"id":"mr__potato_head","w":4000,"v":50},{"id":"furby","w":9900,"v":15},{"id":"my_little_pony","w":1300,"v":45},{"id":"flatsy_doll","w":1000,"v":20},{"id":"baby_alive","w":5400,"v":50},{"id":"speak___spell","w":3800,"v":55},{"id":"weebles","w":4000,"v":15},{"id":"finger_paint","w":8600,"v":35},{"id":"lite_brite","w":4700,"v":60},{"id":"barrel_of_monkeys","w":1600,"v":35}]
+    },
+    "output": {
+      "estimated_revenue": 1999980,
+      "estimated_weight": 29999700,
+      "picked_items": {"play_doh": 33333}
+    }
+  }
+]
